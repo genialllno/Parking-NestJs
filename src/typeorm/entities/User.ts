@@ -59,5 +59,11 @@ export class User {
   
     @Column({ nullable: true })
     RenterAddress: string;
+
+    @Column({ nullable: true })
+    OwnerDateAt: string;
+
+    @Column({ nullable: true })
+    RenterDateAt: string;
   
   }

@@ -17,4 +17,7 @@ export class UpdateUserDto {
     RenterCarColor: string;
     RenterPhoneNumber: string;
     RenterAddress: string;
+    OwnerDateAt: string;
+    RenterDateAt: string;
+
 }

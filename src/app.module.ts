@@ -9,11 +9,11 @@ import { User } from './typeorm/entities/User';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
-      port: 3306,
-      username: 'root',
-      password: 'kalikali',
-      database: 'places',
+      host: 'HOST',
+      port: 1,
+      username: 'URESNAME',
+      password: 'PASSWORD',
+      database: 'DB',
       entities: [User],
       synchronize: true,
     }),
